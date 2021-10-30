@@ -1,0 +1,532 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none; 
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+body{
+    height: 5000px;
+    font-family: Arial, "Times New Roman";
+    color: white;
+}
+
+.car3{
+    height: 100vh;
+
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8fa80996-ac5c-4cef-9534-a61a9457bfb3/bvlatuR/std/2880x1800/M3-Hero-LHD-US-D");
+
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 50% 35%;
+    
+
+}
+
+.header{
+    height: 60px;
+    position: sticky;
+	top: 0;
+    
+}
+
+.header .logo{
+    width:140px;
+    height: 45px;
+    padding-top: 20px;
+    margin-left: 50px;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+
+.header .mid-navBar{
+    margin-left: 320px;
+    padding-top: 24px;
+    display: block;
+    float: left;
+    
+}
+    
+
+.header .mid-navBar li{
+    display:block;
+    float: left;
+    
+}
+
+.header .mid-navBar li a{
+    
+    font-weight: bold;
+    padding:10px 20px;
+    border-radius: 15px;
+    transition: 0.5s;
+
+}
+
+.mid-navBar li a:hover{
+        
+    background-color: #757982 ;
+}
+
+
+.header .right-sideBar{
+    padding-top: 24px;
+    margin-left: 190px;
+    display: block;
+    float: left;
+    
+}
+    
+
+
+.right-sideBar li{
+    display:block;
+    float: left;
+} 
+
+.right-sideBar li a{
+    font-weight: bold;
+    padding:10px 20px;
+    border-radius: 15px;
+    transition:background-color 0.5s;
+}
+
+.right-sideBar li a:hover{
+   
+    background-color: #757982 ;
+}
+
+
+.model3{
+    clear:both;
+    text-align: center;
+    /* border:2px solid orange; */
+}
+
+.model3 h1{
+    /* display:block; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* border:1px solid brown; */
+    padding-top: 60px;
+    font-size: 3rem;
+}
+
+.info{
+    position: absolute;
+    top:85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.speed-info{
+  
+    float: left;
+    
+    
+
+}
+
+.speed-clock-info{
+    width: 180px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+.speed-clock{
+    position: relative; 
+    /* border: 3px solid red; */
+    width: 70px;
+    height: 50px;
+   float: left;
+   
+    /* border: 3px solid brown; */
+} 
+
+.speed-clock-info h1{
+  float: left;
+  /* width: 100px; */
+  height: 50px;
+  position: relative;
+  top:50%;
+  left: 20%;
+  transform: translate(-35%,-23%);
+  text-align: center;
+  
+}
+
+.speed-clock-info p{
+    text-align: center;
+}
+
+
+.speed-outer{
+    width: 50px; 
+    /* border: 3px solid brown; */
+    /* -ms-flex-align: center; */
+    /* align-items: center; */
+    /* flex-flow: row nowrap; */
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    
+    
+}
+
+.speed-inner-circle{
+    
+    inset-inline-start: calc(4% - 15px);
+    max-width: 120px; 
+    height: 18px;
+    opacity: .2;
+    position: absolute; 
+    /* border :3px solid brown; */
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+
+}
+
+.speed-needle{
+    width: 30px;
+    height: 15px; 
+    /* bottom: 40px; */
+    inset-inline-start: calc(4% - 2px);
+    max-width: 4px;
+    position: absolute; 
+    /* border: 3px solid brown; */
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    z-index: 2;
+}
+
+.speed-clock-mph{
+    /* border :3px solid brown; */
+    width: 180px;
+    text-align: center;
+}
+
+
+
+.info .range{
+    text-align: center;
+    /* border :3px solid brown; */
+    float: left;
+    width: 180px;
+    height: 80px;
+    
+}
+
+.info .range .mi{
+    height: 50px;
+    /* text-align: center; */
+    margin-left: 40px;
+    margin-bottom: 10px;
+ 
+}
+
+.info .range .mi h1{
+  position: relative;
+  /* border: 3px solid red; */
+  width: 130px;
+  height: 50px;
+  top:50%;
+  left: 20%;
+  transform: translate(-35%,-23%);
+  text-align: center;
+}
+
+.info .range .mi p{
+    text-align: center;
+}
+
+.range .epa{
+    width: 180px;
+    /* text-align: center; */
+}
+
+
+
+
+
+.order-now-btn{
+    border: 3px solid white;
+    padding: 10px 33px;
+    border-radius: 30px;
+    margin-top: 23px;
+    transition: 0.3s;
+    
+} 
+
+.order-now-btn:hover{
+    background-color: white;
+    color:black;
+}
+
+.width1{
+    width: 1000px;
+    text-align: center;
+    /* border:3px solid red; */
+}
+
+
+.margin1{
+    margin: 0 200px;
+}
+
+
+.font1{
+    font-size: 14px;
+    width: 300px;
+}
+
+.width2{
+    width: 350px;
+    text-align: center;
+}
+/* .width2{
+    width: 700px;
+    border: 4px solid yellow;
+} */
+/* ***************************************************************************************** */
+                                   /* Safty Page Style*/
+/* ***************************************************************************************** */
+
+.built-for-safty{
+    height: 100vh;
+
+}
+
+.safty-Details{
+    float: left;
+    width:27%;
+    align-items: center;
+
+}
+
+.safty-image{
+    float: left;
+    width:63%;
+    height: 100vh;
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/ba4f4fe9-5c46-48c2-ad03-a5c7bf68f30c/bvlatuR/std/2880x1800/model_3_safety_hero");
+     background-position: right;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 140% 100%;
+    /* transform: scale(1.1);   */
+    overflow: hidden;
+    background-color: #F2F2F2 ;
+    
+
+}
+
+.safty-desc{
+    color: black;
+    padding: 20px 50px;
+    
+}
+
+.safty-desc h2{
+  margin-bottom: 20px;
+  margin-top: 4px;
+}
+
+
+.safty-desc p{
+    line-height: 1.6rem;
+
+  }
+
+
+  .safty-rating{
+    color:black;
+    display: block;
+    width:80%;
+    margin: auto;
+    border-radius: 25px;
+    padding: 40px 30px;
+    background-color: #E2E4E4;
+
+
+  }
+
+  .safty-rating h2{
+     
+      /* border: 3px solid blue; */
+      text-align: center;
+
+  }
+
+  .car-rating{
+      margin-top: 13px;
+      
+  }
+
+  .car-rating .rate{
+      float: left;
+  }
+
+  .car-rating .stars{
+      float: right;
+      font-size: 1.1rem;
+  }
+
+  .order-now{
+    padding: 30px 30px;
+    /* position: relative; */
+    
+
+  }
+
+  .order-now .plus{
+      border:3px solid black;
+      width:50px;
+      height: 50px;
+      border-radius: 50% ;
+      color: black;
+      float: left;
+      position: relative;
+      transition: 0.3s;
+      margin-left: 30px;
+  }
+  .order-now .plus:hover{
+        background-color: black;
+        color:white;
+  }
+
+  .order-now .plus span{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2rem;
+  }
+
+ 
+
+  .order-now .learn-more{
+    width:120px;
+    height: 50px;
+    border-radius: 10px ;
+    color: black;
+    float: left;
+    margin: 0 15px;
+    position: relative;
+  }
+
+  .order-now .learn-more span{
+      position: absolute;
+      width: 100%;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      cursor: pointer;
+      
+      /* border:3px solid black; */
+      font-weight: bold;
+  }
+
+  .order-now .order-now-btn1{
+    float: left;
+    border: 3px solid black;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 30px;
+   
+    transition: 0.3s;
+    margin: 3px 0;
+    
+} 
+
+.order-now-btn1:hover{
+    background-color: black;
+    color:white;
+}
+  
+
+.empty{
+    float: left;
+    width:10%;
+    background-color: #F5F5F5;
+    height: 100vh;
+
+}
+
+
+/* ***************************************************************************************** */
+                                   /* Acceleration Page Style*/
+/* ***************************************************************************************** */
+
+
+.Acceleration{
+    height:100vh;
+    /* border : 3px solid blue; */
+}
+
+
+.Acceleration-img{
+    position: relative;
+    height:60vh;
+    border : 3px solid brown;
+
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/3489a82e-b19c-457a-86a4-7ea9ac91aa1c/bvlatuR/std/1920x1080/lhd-performance-hero-desktop");
+    /* background-position: right; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 100% 50%;
+    overflow: hidden;
+}
+
+.Acceleration-details{
+    color: black;
+    height: 40vh;
+}
+
+
+.Acceleration-details-title{
+    float: left;
+    width:40%;
+    height: 100%;
+}
+
+.Acceleration-details-title p, .Acceleration-details-title h1{
+    margin-left: 60px;
+}
+
+.Acceleration-details-title .wraper{
+  padding-top: 70px;
+  width:70%;
+  margin-left: 250px;
+}
+  
+
+
+.Acceleration-details-info{
+    float: left;
+    width:60%;
+    height: 100%;
+    padding: 30px;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    padding-top: 80px;
+}
+
+.Acceleration-details-info p{
+    width: 80%;
+}
